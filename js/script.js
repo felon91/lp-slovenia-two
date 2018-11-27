@@ -21,7 +21,5 @@ $(document).ready(function() {
 
   $(".slovenia-form").validate(params);
   $(".slovenia-form-two").validate(params);
-  $(".slovenia-form-three").validate(params);
-
 
 });
