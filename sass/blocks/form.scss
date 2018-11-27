@@ -1,6 +1,6 @@
 .form {
   border-radius: 20px;
-  background-color: $primary;
+  background-color: $second;
   box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.16);
   max-width: 970px;
   margin: 0 auto;
@@ -16,7 +16,7 @@
     padding-left: 30px;
     padding-right: 70px;
     margin: 0;
-    padding-bottom: 145px;
+    padding-bottom: 195px;
     background: url('../../images/freesloveniav/map.png') 30px bottom no-repeat,
                 url('../../images/freesloveniav/arrow.png') 175px 89% no-repeat;
   }
@@ -34,7 +34,7 @@
 }
 
 .form--translate {
-  margin-top: -235px;
+  margin-top: -190px;
   position: relative;
   z-index: 1;
 }
