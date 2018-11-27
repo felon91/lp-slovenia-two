@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,900&subset=cyrillic');
+
+@font-face {
+  font-family: 'ralewayblack';
+  src: url('../../fonts/ralewayblack-webfont.woff2') format('woff2'),
+  url('../../fonts/ralewayblack-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'ralewayextrabold';
+  src: url('../../fonts/ralewayextrabold-webfont.woff2') format('woff2'),
+  url('../../fonts/ralewayextrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ralewaybold';
+  src: url('../../fonts/ralewaybold.woff2') format('woff2'),
+  url('../../fonts/ralewaybold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ralewaymedium';
+  src: url('../../fonts/ralewaymedium.woff2') format('woff2'),
+  url('../../fonts/ralewaymedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

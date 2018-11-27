@@ -1,0 +1,94 @@
+.houses {
+  background-image: url('../../images/freesloveniav/houses.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-color: $primary;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+
+  &::after {
+    background: url('../../images/freesloveniav/flag.png') center no-repeat;
+    position: absolute;
+    top: -365px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    display: block;
+    width: 743px;
+    height: 526px;
+  }
+
+  .houses__title {
+    margin: 0;
+    text-align: center;
+    font-family: 'ralewayextrabold';
+    font-size: 40px;
+    line-height: 1.2;
+    color: $white;
+    padding: 20px 0;
+  }
+
+}
+
+.houses--top {
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+.houses--no-map {
+  padding: 60px 0 230px;
+  background-image: url('../../images/freesloveniav/houses-two.png');
+
+  &::after {
+    background: none;
+    @include visually-hidden();
+  }
+  
+}
+
+@media (max-width: 768px) {
+  
+  .houses {
+    
+    br {
+      display: none;
+    }
+
+    &::after {
+      top: -222px;
+      background-size: 450px;
+      width: 450px;
+      height: 319px;
+    }
+
+    .houses__title {
+      font-size: 30px;
+    }
+    
+  }
+  
+}
+
+@media (max-width: 480px) {
+
+  .houses {
+
+    &::after {
+      top: -142px;
+      background-size: 290px;
+      width: 290px;
+      height: 205px;
+    }
+
+    .houses__title {
+      font-size: 24px;
+    }
+
+  }
+
+  .houses--top {
+    padding: 90px 0 30px 0;
+  }
+
+}
